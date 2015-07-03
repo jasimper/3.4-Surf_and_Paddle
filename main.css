@@ -1,0 +1,68 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+body {
+  position: inherit;
+  height: 100%;
+  max-width: 900px;
+  margin: 0;
+  background-color: #FFFFFF;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #181818;
+  font-size: 18px; }
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px; }
+
+article {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
+  top: 300px; }
+  article > h1 {
+    color: #0F1F3D;
+    font-size: 2.3em; }
+
+header {
+  max-height: 300px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url("./images/nestle.jpg");
+  background-size: cover;
+  background-position: 50% 50%; }
+
+.header__overlay {
+  position: absolute;
+  background: rgba(0, 100, 255, 0.2);
+  text-align: center;
+  opacity: 1;
+  width: 100%;
+  height: 100%; }
+  .header__overlay > h1 {
+    color: #FFFFFF;
+    font: "Helvetica Neue", Arial, sans-serif;
+    font-size: 2em; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #0F1F3D;
+  color: #cccccc;
+  font-size: .8em; }
+
+/*# sourceMappingURL=main.css.map */

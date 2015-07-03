@@ -1,0 +1,28 @@
+header {
+  max-height: 300px;
+  display: inline-block;
+// }
+// .header__background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url('./images/nestle.jpg');
+  background-size: cover;
+  background-position: 50% 50%;
+  // background-color: #DCBF79;
+}
+.header__overlay {
+  position: absolute;
+  background:rgba(0, 100, 255, .2);
+  text-align:center;
+  opacity: 1;
+  width:100%;height:100%;
+  > h1 {
+    color: $text_light;
+    font: $header_font;
+    font-size: 2em;
+      // padding-left: 20px;
+      // margin-bottom: 40px;
+  }
+}
