@@ -1,13 +1,26 @@
-article {
-  position: absolute;
+.article {
+  // position: absolute;
   margin-top: 20px;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 100px;
-  top: 300px;
-  // bottom: 0;
+  margin-bottom: 20px;
+  max-width: 700px;
+  width: 80%;
+  // top: 300px;
+  // bottom: inherit;
   > h1 {
-    color: #0F1F3D;
+    color: #053352;
     font-size: 2.3em;
+    margin-bottom: 5px;
+  }
+  > a {
+    color: lighten( $text_dark, 50%);
+  }
+  > p {
+    line-height: 27px;
+    margin-top: 25px;
+    > a {
+      color: lighten( $text_dark, 50%);
+    }
   }
 }
