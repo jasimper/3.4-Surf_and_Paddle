@@ -1,5 +1,4 @@
 .header__background {
-  // position: absolute;
   top: 0;
   bottom: 0;
   width: 100%;
@@ -7,10 +6,8 @@
   background-image: url('./images/nestle.jpg');
   background-size: cover;
   background-position: 50% 50%;
-  // background-color: #DCBF79;
 }
 .header__overlay {
-  // position: absolute;
   background:rgba(23, 107, 175, .7);
   text-align:center;
   opacity: 1;
@@ -35,8 +32,6 @@
 nav {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 1.5em;
-  color: #042C46;
 }
 .header__nav {
   list-style: none;
@@ -46,12 +41,15 @@ nav {
   > li {
     display: inline-block;
     padding: 10px;
+    font-size: 1.5em;
+    color: #042C46;
   }
   > li > a {
     color: inherit;
     text-decoration: none;
   }
   > li > a:hover {
-    border-bottom: solid 2px #042C46;
+    color: #CCCCCC;
+    border-bottom: solid 2px #CCCCCC;
   }
 }
