@@ -175,7 +175,8 @@ nav {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  margin-top: -25px;
+  padding: 10px;
   background-color: #053352;
   color: #cccccc;
   font-size: .8em;
@@ -183,6 +184,22 @@ nav {
   .footer > img {
     width: 50px;
     margin: 2px; }
+  @media screen and (min-width: 800px) {
+    .footer {
+      text-align: left;
+      padding: 20px; }
+      .footer > img {
+        display: inline-block;
+        position: absolute;
+        left: 10%;
+        margin-bottom: 10px; }
+      .footer > p {
+        display: inline-block;
+        position: relative;
+        left: 15%;
+        font-size: .8em;
+        margin: 0;
+        padding: 20px; } }
 
 .footer__nav {
   list-style: none;
@@ -191,16 +208,30 @@ nav {
   padding-left: 0; }
   .footer__nav > li {
     display: inline-block;
-    padding: 5px;
+    padding: 4px;
     font-size: 1em;
     line-height: 1.2em;
     color: #CCCCCC; }
+    .footer__nav > li:after {
+      content: "\00a0\00a0\00a0|"; }
+    .footer__nav > li:last-of-type:after {
+      content: none; }
   .footer__nav > li > a {
     color: inherit;
     text-decoration: none; }
   .footer__nav > li > a:hover {
     color: #FFFFFF;
     border-bottom: solid 1px #FFFFFF; }
+  @media screen and (min-width: 800px) {
+    .footer__nav {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      margin-right: 10%;
+      width: 35%;
+      text-align: right; }
+      .footer__nav > li {
+        font-size: 1em; } }
 
 .author__info {
   margin: 30px 10% 20px;
