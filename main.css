@@ -179,7 +179,6 @@ nav {
   right: 0;
   bottom: 0;
   left: 0;
-  margin-top: -25px;
   padding: 10px;
   background-color: #053352;
   color: #cccccc;
@@ -191,6 +190,7 @@ nav {
   @media screen and (min-width: 800px) {
     .footer {
       text-align: left;
+      margin-top: -25px;
       padding: 20px; }
       .footer > img {
         display: inline-block;
