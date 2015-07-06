@@ -297,12 +297,12 @@ nav {
     margin-bottom: 5px; }
 
 .pop__posts {
-  display: inline-block;
   position: relative;
   margin: 20px auto;
   width: 280px; }
   @media screen and (min-width: 800px) {
     .pop__posts {
+      display: inline-block;
       width: 25%;
       max-height: 300px;
       overflow: hidden;
