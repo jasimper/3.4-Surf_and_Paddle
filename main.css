@@ -41,11 +41,15 @@ body {
     margin-bottom: 5px; }
   .article > a {
     color: #989898; }
+    .article > a:hover {
+      color: #042C46; }
   .article > p {
     line-height: 27px;
     margin-top: 25px; }
     .article > p > a {
       color: #7e7e7e; }
+      .article > p > a:hover {
+        color: #042C46; }
 
 blockquote {
   font-size: 1.5em;
@@ -281,6 +285,9 @@ nav {
     color: #042C46;
     border-bottom: solid 2px #042C46; }
 
+.pop__postsWrapper {
+  margin: 0 auto; }
+
 .pop__postsHeader {
   border-top: 2px solid #cccccc;
   text-align: center; }
@@ -401,7 +408,7 @@ nav {
         font-weight: bold;
         color: #106DB3; }
       .sidebar__section > p {
-        font-size: .6em;
+        font-size: .7em;
         line-height: 20px;
         color: #4b4b4b; } }
 

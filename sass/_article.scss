@@ -6,13 +6,19 @@
     margin-bottom: 5px;
   }
   > a {
-    color: lighten( $text_dark, 50%);
+    color: lighten( $text_dark, 50% );
+    &:hover {
+      color: #042C46;
+    }
   }
   > p {
     line-height: 27px;
     margin-top: 25px;
     > a {
-      color: lighten( $text_dark, 40%);
+      color: lighten( $text_dark, 40% );
+      &:hover {
+        color: #042C46;
+      }
     }
   }
 }
