@@ -5,15 +5,15 @@
     max-width: 200px;
     margin: 10px auto;
     padding-top: 10px;
-  > h1 {
-    font-size: .8em;
-    font-weight: bold;
-    color: #106DB3;
-  }
-  > p {
-    font-size: .7em;
-    line-height: 20px;
-    color: lighten( $text_dark, 20%);
-  }
+    > h1 {
+      font-size: .8em;
+      font-weight: bold;
+      color: #106DB3;
+    }
+    > p {
+      font-size: .7em;
+      line-height: 20px;
+      color: lighten( $text_dark, 20%);
+    }
   }
 }

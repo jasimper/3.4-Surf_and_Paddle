@@ -43,20 +43,20 @@
     line-height: 1.2em;
     color: #CCCCCC;
     &:after {
-        content: "\00a0\00a0\00a0|";
-      }
-      &:last-of-type:after {
-        content: none;
-      }
-  }
-    > li > a {
+      content: "\00a0\00a0\00a0|";
+    }
+    &:last-of-type:after {
+      content: none;
+    }
+    > a {
       color: inherit;
       text-decoration: none;
     }
-    > li > a:hover {
-        color: #FFFFFF;
-        border-bottom: solid 1px #FFFFFF;
+    &:hover {
+      color: #FFFFFF;
+      border-bottom: solid 1px #FFFFFF;
     }
+  }
     @media screen and (min-width: 800px) {
       display: inline-block;
       position: absolute;

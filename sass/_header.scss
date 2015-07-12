@@ -13,7 +13,6 @@
   background: rgba(23, 107, 175, .7);
   text-align: center;
   opacity: 1;
-  width: 100%;
   height: 100%;
   padding: 10px;
   > h1 {
@@ -68,14 +67,14 @@ nav {
     @media screen and (min-width: 800px) {
       font-size: 1em;
     }
-  }
-  > li > a {
-    color: inherit;
-    text-decoration: none;
-  }
-  > li > a:hover {
-    color: #CCCCCC;
-    border-bottom: solid 2px #CCCCCC;
+    > a {
+      color: inherit;
+      text-decoration: none;
+    }
+    &:hover {
+      color: #CCCCCC;
+      border-bottom: solid 2px #CCCCCC;
+    }
   }
 }
 .header__logo {

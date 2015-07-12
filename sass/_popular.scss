@@ -16,7 +16,6 @@
   width: 280px;
   @media screen and (min-width: 800px) {
     display: inline-block;
-
     width:25%;
     max-height: 300px;
     overflow: hidden;
@@ -54,7 +53,7 @@
     left: 0;
     margin-left: 10px;
     margin-bottom: 10px;
-    }
+  }
   &:hover {
     opacity: 0;
   }
@@ -62,6 +61,6 @@
     width:100%;
     > h2 {
       font-size: 1.1em;
-      }
+    }
   }
 }
